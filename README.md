@@ -45,11 +45,11 @@
 	```
     * Python libraries installation
 	```sh
-	$ $ pip install -r requirements.txt	
+	$ pip install -r requirements.txt	
 	```
   * Run
 	```sh
-	$ $ npm start	
+	$ npm start	
 	```
 
 ## Note:
