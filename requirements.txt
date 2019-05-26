@@ -1,0 +1,6 @@
+librosa
+pandas 
+numpy
+pathlib
+sklearn
+keras
