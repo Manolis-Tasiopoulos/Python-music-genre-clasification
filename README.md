@@ -1,6 +1,6 @@
 # Python-music-genre-clasification
 
-Μια εφαρμογή αναγνώρισης μουσικής με machine learning
+Μια εφαρμογή αναγνώρισης μουσικής με τη χρήση machine learning
 
 <img src="/App screenshots/ForReadme.png" width="50%" />
 <img src="/App screenshots/Screenshot_6.png" width="50%" />
