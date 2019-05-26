@@ -36,7 +36,7 @@
     * librosa
     * NumPy  
     
-## Εγκατάσταη
+## Εγκατάσταση
   * Clone the repository and then:
     * User interface instalation
 	```sh
