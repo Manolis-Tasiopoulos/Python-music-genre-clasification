@@ -1,0 +1,46 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <script src="linkers/csv_creator.js"></script>
+  <script>
+		if (typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+  </script>
+  <script>
+		if (window.module) module = window.module;
+  </script>
+  <script>
+  	function showFileBox() {
+	  	const { dialog } = require('electron').remote;
+	  	dialog.showOpenDialog({properties:['openDirectory']}, (fileNames) => {
+	    if (fileNames === undefined) {
+	      return;
+	    }
+	    document.getElementById("path").value = fileNames[0]
+
+	  });
+    }
+  </script>
+</head>
+
+<body>
+  <br>
+  <div class="container">
+    <button class="btn btn-info"><a style="color:white" href="gui.html">< Back</a></button>
+
+    <div class="jumbotron">
+      <h1>Csv Creator</h1>
+      <h2>Choose your database to analyse your songs</h2>
+      <p>!The database must be a folder with subfolders named according to the type of content!</p>
+    </div>
+    <br>
+    <label>Enter database path</label>
+    <input type="text" value="" name="path" id="path" ></input>
+    <div class="Buttons">
+      <button class="btn btn-success" onclick="showFileBox()">Choose Database Folder</button>
+      <button type="submit" id="analyse" class="btn btn-warnin" onclick="Analyse()">Analyse</button>
+    </div>
+  </div>
+<body>
