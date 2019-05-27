@@ -7,7 +7,8 @@ DataSet που χρησιμοποιήθηκε: <a href="http://opihi.cs.uvic.ca/
 <img src="/App screenshots/Screenshot_6.png" width="50%" />
 <img src="/App screenshots/Screenshot_10.png" width="50%" />
 
-Για την επεξεργασία και άλλων τύπου αρχείων ήχου μπορείτε να κατεβάσετε το <a href="https://ffmpeg.org/"> ffmpeg</a>
+Για την επεξεργασία και άλλων τύπου αρχείων ήχου μπορείτε να κατεβάσετε το <a href="https://ffmpeg.org/"> ffmpeg</a> 
+<br> Στον φάκελο engine βρήσκεται το source code της εφαρμγής 
 
 ## Γενικά εργαλεία που χρειάζονται
   * Python
