@@ -1,4 +1,4 @@
-# Python-music-genre-clasification
+# Python-music-genre-classification
 
 Μια εφαρμογή αναγνώρισης μουσικής με τη χρήση machine learning <br>
 DataSet που χρησιμοποιήθηκε: <a href="http://opihi.cs.uvic.ca/sound/genres.tar.gz">Gtzan</a>
