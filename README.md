@@ -6,6 +6,7 @@
 <img src="/App screenshots/Screenshot_6.png" width="50%" />
 <img src="/App screenshots/Screenshot_10.png" width="50%" />
 
+Για την επεξεργασία και άλλων τύπου αρχείων ήχου μπορείτε να κατεβάσετε το <a href="https://ffmpeg.org/"> ffmpeg</a>
 
 ## Γενικά εργαλεία που χρειάζονται
   * Python
